@@ -1,5 +1,5 @@
 function subtituiPares(array) {
-    if(!array.length){
+    if(!array.length || !array.length){
         return  "Coloque um array válido para verificar!";
     } else {
         for(let i = 0; i < array.length; i++) {
